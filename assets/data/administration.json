@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "position": "Директор КЗ ЛОР ЛМФК ім. С. П. Людкевича",
+        "name": "Охрім Андрій Романович",
+        "image": "/assets/img/administration/head-lmk.jpg",
+        "text": "На посаді директора від жовтня 2010 року,обраний на загальних зборах 22 жовтня 98 відсотками трудового колективу коледжу"
+    },
+    {
+        "id": 2,
+        "position": "Заступник директора з навчальної роботи",
+        "name": "Скобало Роман Євстахійович",
+        "image": "/assets/img/administration/head-second.jpg",
+        "text": ""
+    },
+    {
+        "id": 3,
+        "position": "Завідувач навчально-методичного кабінету",
+        "name": "Гнідь Володимир Пилипович",
+        "image": "/assets/img/administration/head-three.jpg",
+        "text": ""
+    },
+    {
+        "id": 4,
+        "position": "Завідувачка відділення",
+        "name": "Войтинська Елла Йосипівна",
+        "image": "/assets/img/administration/head-education.jpg",
+        "text": ""
+    },
+    {
+        "id": 5,
+        "position": "Завідувачка навчально-методичного кабінету",
+        "name": "Ельтек Ілона Степанівна",
+        "image": "/assets/img/administration/head-school.jpg",
+        "text": ""
+    },
+    {
+        "id": 6,
+        "position": "Заступник директора з адміністративно-господарської роботи",
+        "name": "Ферендович Роман Семенович",
+        "image": "/assets/img/administration/head-work.jpg",
+        "text": ""
+    }
+]

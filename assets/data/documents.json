@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Статут навчального закладу",
+        "category": "statut",
+        "fileUrl": "/assets/documents/statuts/Статут.pdf"
+    },
+    {
+        "id": 2,
+        "title": "Про організацію освітнього процесу",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про організацію освітнього процесу.pdf"
+    },
+    {
+        "id": 3,
+        "title": "Про призначення та виплату соціальної стипендії студентам",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про призначення та виплату соціальної стипендії студентам.pdf"
+    },
+    {
+        "id": 4,
+        "title": "Про стипендіальну комісію",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про стипендіальну комісію.pdf"
+    },
+    {
+        "id": 5,
+        "title": "Про екзаменаційну комісію",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про екзаменаційну комісію.pdf"
+    },
+    {
+        "id": 6,
+        "title": "Про порядок відрахування, переривання навчання і переведення",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про відрахування, переривання навчання і переведення.pdf"
+    },
+    {
+        "id": 7,
+        "title": "Про забезпечення академічної доброчесності",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про забезпечення академічної доброчесності.pdf"
+    },
+    {
+        "id": 8,
+        "title": "Про порядок роботи апеляційної комісії",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про порядок роботи апеляційної комісії.pdf"
+    },
+    {
+        "id": 9,
+        "title": "Про порядок ведення претензійно-позовної роботи ",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про порядок ведення претензійно-позовної роботи.pdf"
+    },
+    {
+        "id": 10,
+        "title": "Про навчальні кабінети та лабораторії",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про навчальні кабінети та лабораторії.pdf"
+    },
+    {
+        "id": 11,
+        "title": "Про бібліотеку",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про бібліотеку.pdf"
+    },
+    {
+        "id": 12,
+        "title": "Про практичну підготовку",
+        "category": "polozhennya",
+        "fileUrl": "/assets/documents/polozhennya/Положення про практичну підготовку.pdf"
+    },
+    {
+        "id": 13,
+        "title": "Правила внутрішнього розпорядку",
+        "category": "other",
+        "fileUrl": "/assets/documents/pravyla.pdf"
+    }
+]

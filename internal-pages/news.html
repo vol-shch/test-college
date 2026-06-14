@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Новини</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="/test-college/assets/img/favicon/favicon-16x16.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/test-college/assets/css/style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+<header class="header">
+           <div class="header__container">
+                <div class="header__logo-box">
+                        <a href="/test-college/index.html" class="header__logo"><img alt="logo" class="header__logo-img" src="/test-college/assets/img/header_img/logo.png"></img><h1>Львівський музичний фаховий коледж <br> ім.С.П.Людкевича</h1>
+                        </a>             
+                        <button class="icon-menu" type="button">
+                        <span></span></button>
+                </div>
+                <div class="header__nav nav">
+                    <nav class="nav__body">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="/test-college/index.html" class="nav__link">Головна</a>
+                            </li>
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__toggle">Про нас</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/test-college/internal-pages/history.html" class="nav__link dropdown-menu_link">Історія</a></li>
+                                    <li><a href="/test-college/internal-pages/administration.html"class="nav__link dropdown-menu_link">Адміністрація</a></li>
+                                    <li><a href="/test-college/internal-pages/departments.html" class="nav__link dropdown-menu_link">Відділи</a></li>
+                                    <li><a href="/test-college/internal-pages/bands.html" class="nav__link dropdown-menu_link">Колективи</a></li>
+                                    <li><a href="/test-college/internal-pages/news.html" class="nav__link dropdown-menu_link">Новини</a></li>
+                                    <li><a href="/test-college/internal-pages/school.html" class="nav__link dropdown-menu_link">Школа педагогічної практики</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item dropdown">
+                                <a data-goto =".steps" href="#" class="nav__link dropdown__toggle">Абітурієнтові</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Оголошення</a></li>
+                                    <li><a href="#"class="nav__link dropdown-menu_link">Правила прийому</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Положення</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Вимоги до вступу</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Рішення приймальної комісії</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Студентам</a>
+                            </li>
+                            <li class="nav__item dropdown">
+                                <a data-goto =".steps" href="#" class="nav__link dropdown__toggle">Якість освіти</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Оголошення</a></li>
+                                    <li><a href="#"class="nav__link dropdown-menu_link">Моніторинг</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Анкетування</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Курси підвищення акредитації</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav__link dropdown__toggle">Документи</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/test-college/internal-pages/documents/statuts.html" class="nav__link dropdown-menu_link">Статути</a></li>
+                                    <li><a href="/test-college/internal-pages/documents/polozhennya.html"class="nav__link dropdown-menu_link">Положення</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Установча документація</a></li>
+                                    <li><a href="#" class="nav__link dropdown-menu_link">Освітня документація</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">Контакти</a>
+                            </li>                       
+                        </ul>
+                    </nav>
+                </div>
+           </div>
+</header>
+<main class="page">
+    <section class="news news-page">
+        <h2 class="news-page__title title">Життя коледжу</h2>
+        <div id="news-page-container" class="news-page-grid news-page__container"></div>
+    </section>
+</main>
+
+<footer class="footer" id="contacts">
+    <div class="footer__container">
+        <div class="footer-label">
+            <div class="footer-label__logo">
+                <div class="footer-label__logo-img">
+                    <img alt="logo" src="/test-college/assets/img/header_img/logo.png" />
+                    <img />
+                </div>
+                <h2 class="footer-label__logo-title">Львівський музичний фаховий коледж ім.С.П.Людкевича</h2>
+            </div>
+            <p class="footer-label__text">
+                Один із найстаріших та найпрестижніших музичних закладів України, який уже понад 140 років є серцем
+                класичної та сучасної музичної освіти Галичини.
+            </p>
+        </div>
+        <div class="contacts-physical">
+            <h3 class="contacts-physical__title">Контактна інформація</h3>
+            <ul class="contacts-physical__list">
+                <li class="contacts-physical__item">
+                    <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z"
+                            stroke="#ffff"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                            stroke="#ffff"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <a
+                        class="contacts-physical__link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://maps.app.goo.gl/PwHXffgbu78zUM426">
+                        79007, Україна,м.Львів, пл.Маркіяна Шашкевича, 5
+                    </a>
+                </li>
+                <li class="contacts-physical__item">
+                    <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.5 2C13.5 2 15.8335 2.21213 18.8033 5.18198C21.7731 8.15183 21.9853 10.4853 21.9853 10.4853"
+                            stroke="#ffff"
+                            stroke-width="1.5"
+                            stroke-linecap="round" />
+                        <path
+                            d="M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829"
+                            stroke="#ffff"
+                            stroke-width="1.5"
+                            stroke-linecap="round" />
+                        <path
+                            d="M15.1007 15.0272L14.5569 14.5107L15.1007 15.0272ZM15.5562 14.5477L16.1 15.0642H16.1L15.5562 14.5477ZM17.9728 14.2123L17.5987 14.8623H17.5987L17.9728 14.2123ZM19.8833 15.312L19.5092 15.962L19.8833 15.312ZM20.4217 18.7584L20.9655 19.2749L20.4217 18.7584ZM19.0011 20.254L18.4573 19.7375L19.0011 20.254ZM17.6763 20.9631L17.7499 21.7095L17.6763 20.9631ZM7.81536 16.4752L8.35915 15.9587L7.81536 16.4752ZM3.00289 6.96594L2.25397 7.00613L2.25397 7.00613L3.00289 6.96594ZM9.47752 8.50311L10.0213 9.01963H10.0213L9.47752 8.50311ZM9.63424 5.6931L10.2466 5.26012L9.63424 5.6931ZM8.37326 3.90961L7.76086 4.3426V4.3426L8.37326 3.90961ZM5.26145 3.60864L5.80524 4.12516L5.26145 3.60864ZM3.69185 5.26114L3.14806 4.74462L3.14806 4.74462L3.69185 5.26114ZM11.0631 13.0559L11.6069 12.5394L11.0631 13.0559ZM15.6445 15.5437L16.1 15.0642L15.0124 14.0312L14.5569 14.5107L15.6445 15.5437ZM17.5987 14.8623L19.5092 15.962L20.2575 14.662L18.347 13.5623L17.5987 14.8623ZM19.8779 18.2419L18.4573 19.7375L19.5449 20.7705L20.9655 19.2749L19.8779 18.2419ZM17.6026 20.2167C16.1676 20.3584 12.4233 20.2375 8.35915 15.9587L7.27157 16.9917C11.7009 21.655 15.9261 21.8895 17.7499 21.7095L17.6026 20.2167ZM8.35915 15.9587C4.48303 11.8778 3.83285 8.43556 3.75181 6.92574L2.25397 7.00613C2.35322 8.85536 3.1384 12.6403 7.27157 16.9917L8.35915 15.9587ZM9.7345 9.32159L10.0213 9.01963L8.93372 7.9866L8.64691 8.28856L9.7345 9.32159ZM10.2466 5.26012L8.98565 3.47663L7.76086 4.3426L9.02185 6.12608L10.2466 5.26012ZM4.71766 3.09213L3.14806 4.74462L4.23564 5.77765L5.80524 4.12516L4.71766 3.09213ZM9.1907 8.80507C8.64691 8.28856 8.64622 8.28929 8.64552 8.29002C8.64528 8.29028 8.64458 8.29102 8.64411 8.29152C8.64316 8.29254 8.64219 8.29357 8.64121 8.29463C8.63924 8.29675 8.6372 8.29896 8.6351 8.30127C8.63091 8.30588 8.62646 8.31087 8.62178 8.31625C8.61243 8.32701 8.60215 8.33931 8.59116 8.3532C8.56918 8.38098 8.54431 8.41512 8.51822 8.45588C8.46591 8.53764 8.40917 8.64531 8.36112 8.78033C8.26342 9.0549 8.21018 9.4185 8.27671 9.87257C8.40742 10.7647 8.99198 11.9644 10.5193 13.5724L11.6069 12.5394C10.1793 11.0363 9.82761 10.1106 9.76086 9.65511C9.72866 9.43536 9.76138 9.31957 9.77432 9.28321C9.78159 9.26277 9.78635 9.25709 9.78169 9.26437C9.77944 9.26789 9.77494 9.27451 9.76738 9.28407C9.76359 9.28885 9.75904 9.29437 9.7536 9.30063C9.75088 9.30375 9.74793 9.30706 9.74476 9.31056C9.74317 9.31231 9.74152 9.3141 9.73981 9.31594C9.73896 9.31686 9.73809 9.31779 9.7372 9.31873C9.73676 9.3192 9.73608 9.31992 9.73586 9.32015C9.73518 9.32087 9.7345 9.32159 9.1907 8.80507ZM10.5193 13.5724C12.0422 15.1757 13.1923 15.806 14.0698 15.9485C14.5201 16.0216 14.8846 15.9632 15.1606 15.8544C15.2955 15.8012 15.4022 15.7387 15.4823 15.6819C15.5223 15.6535 15.5556 15.6266 15.5824 15.6031C15.5959 15.5913 15.6077 15.5803 15.618 15.5703C15.6232 15.5654 15.628 15.5606 15.6324 15.5562C15.6346 15.554 15.6367 15.5518 15.6387 15.5497C15.6397 15.5487 15.6407 15.5477 15.6417 15.5467C15.6422 15.5462 15.6429 15.5454 15.6431 15.5452C15.6438 15.5444 15.6445 15.5437 15.1007 15.0272C14.5569 14.5107 14.5576 14.51 14.5583 14.5093C14.5585 14.509 14.5592 14.5083 14.5596 14.5078C14.5605 14.5069 14.5614 14.506 14.5623 14.5051C14.5641 14.5033 14.5658 14.5015 14.5674 14.4998C14.5708 14.4965 14.574 14.4933 14.577 14.4904C14.583 14.4846 14.5885 14.4796 14.5933 14.4754C14.6028 14.467 14.6099 14.4616 14.6145 14.4584C14.6239 14.4517 14.6229 14.454 14.6102 14.459C14.5909 14.4666 14.5 14.4987 14.3103 14.4679C13.9077 14.4025 13.0391 14.0472 11.6069 12.5394L10.5193 13.5724ZM8.98565 3.47663C7.97206 2.04305 5.94384 1.80119 4.71766 3.09213L5.80524 4.12516C6.32808 3.57471 7.24851 3.61795 7.76086 4.3426L8.98565 3.47663ZM3.75181 6.92574C3.73038 6.52644 3.90425 6.12654 4.23564 5.77765L3.14806 4.74462C2.61221 5.30877 2.20493 6.09246 2.25397 7.00613L3.75181 6.92574ZM18.4573 19.7375C18.1783 20.0313 17.8864 20.1887 17.6026 20.2167L17.7499 21.7095C18.497 21.6357 19.1016 21.2373 19.5449 20.7705L18.4573 19.7375ZM10.0213 9.01963C10.9889 8.00095 11.0574 6.40678 10.2466 5.26012L9.02185 6.12608C9.44399 6.72315 9.37926 7.51753 8.93372 7.9866L10.0213 9.01963ZM19.5092 15.962C20.33 16.4345 20.4907 17.5968 19.8779 18.2419L20.9655 19.2749C22.2704 17.901 21.8904 15.6019 20.2575 14.662L19.5092 15.962ZM16.1 15.0642C16.4854 14.6584 17.086 14.5672 17.5987 14.8623L18.347 13.5623C17.2485 12.93 15.8861 13.1113 15.0124 14.0312L16.1 15.0642Z"
+                            fill="#ffff" />
+                    </svg>
+                    <p class="contacts-physical__link">Телефон для довідок: 032 261-23-48</p>
+                </li>
+                <li class="contacts-physical__item">
+                    <svg
+                        width="32px"
+                        height="32px"
+                        viewBox="0 0 24 24"
+                        id="Layer_1"
+                        data-name="Layer 1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: none;
+                                    stroke: #ffff;
+                                    stroke-miterlimit: 10;
+                                    stroke-width: 1.91px;
+                                }
+                            </style>
+                        </defs>
+                        <circle class="cls-1" cx="12" cy="12" r="2.86" />
+                        <path
+                            class="cls-1"
+                            d="M14.86,8.18v6a1.67,1.67,0,0,0,1.67,1.67h0a1.64,1.64,0,0,0,1.48-.9,6.65,6.65,0,0,0,.63-3.67,6.69,6.69,0,1,0-4.23,7" />
+                        <rect class="cls-1" x="1.5" y="1.5" width="21" height="21" rx="3.82" />
+                    </svg>
+                    <p class="contacts-physical__link">e-mail: ldmu60@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <div class="contacts-socials">
+            <h3 class="contacts-socials__title">Ми в соціальних мережах</h3>
+            <p class="contacts-socials__text">
+                Тут ми завжди ділимось останніми новинами, приєднайся і будь завжди в курсі мистецького життя коледжу.
+            </p>
+            <ul class="contacts-socials__list">
+                <li class="contacts-socials__item">
+                    <a
+                        class="contacts-socials__link"
+                        href="https://www.facebook.com/groups/564024787294408?locale=uk_UA  "
+                        target="_blank"
+                        ><svg
+                            fill="#ffff"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="40px"
+                            height="32px"
+                            viewBox="0 0 512 512"
+                            xml:space="preserve">
+                            <g id="7935ec95c421cee6d86eb22ecd11b7e3">
+                                <path
+                                    style="display: inline"
+                                    d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379
+		c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302
+		c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263
+		l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="contacts-socials__item">
+                    <a
+                        class="contacts-socials__link"
+                        href="https://youtube.com/channel/UCFPGfDAfLHIE6qyqKbAIOnQ?si=lx2GSS7ysH6p4259 "
+                        target="_blank">
+                        <svg
+                            width="40px"
+                            height="40px"
+                            viewBox="0 0 512 512"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>youtube-filled</title>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="icon" fill="#ffff" transform="translate(42.666738, 106.667236)">
+                                    <path
+                                        d="M214.304705,0.000543068834 C226.424729,0.0216871426 348.414862,0.444568619 380.010595,8.90219814 C398.378595,13.7775234 412.821262,28.1915286 417.749262,46.6329765 C426.309902,78.5811951 426.652328,143.739282 426.666025,148.900811 L426.666025,149.553735 C426.652328,154.730893 426.309902,220.084332 417.749262,252.032551 C412.821262,270.473998 398.378595,284.888004 380.010595,289.763329 C347.417102,298.488042 218.629945,298.662536 213.491496,298.666026 L213.175003,298.666026 C208.035726,298.662536 79.2276622,298.488042 46.6132622,289.763329 C28.2665955,284.888004 13.8025955,270.473998 8.89592883,252.032551 C0.355768832,220.084332 0.014162432,154.730893 0.000498176,149.553735 L0.000498176,148.900811 C0.014162432,143.739282 0.355768832,78.5811951 8.89592883,46.6329765 C13.8025955,28.1915286 28.2665955,13.7775234 46.6132622,8.90219814 C78.2292622,0.444568619 200.239662,0.0216871426 212.361662,0.000543068834 Z M169.685262,86.2714908 L169.685262,212.394036 L281.215929,149.226778 L169.685262,86.2714908 Z"
+                                        id="Shape"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="contacts-socials__item">
+                    <a
+                        class="contacts-socials__link"
+                        href="https://www.instagram.com/lmfk_liudkevych?igsh=MTM4ZjR1eGF6d3J4bg== "
+                        target="_blank">
+                        <svg
+                            width="40px"
+                            height="40px"
+                            viewBox="0 0 192 192"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none">
+                            <path
+                                stroke="#ffff"
+                                stroke-width="12"
+                                d="M96 162c-14.152 0-24.336-.007-32.276-.777-7.849-.761-12.87-2.223-16.877-4.741a36 36 0 0 1-11.33-11.329c-2.517-4.007-3.98-9.028-4.74-16.877C30.007 120.336 30 110.152 30 96c0-14.152.007-24.336.777-32.276.76-7.849 2.223-12.87 4.74-16.877a36 36 0 0 1 11.33-11.33c4.007-2.517 9.028-3.98 16.877-4.74C71.663 30.007 81.847 30 96 30c14.152 0 24.336.007 32.276.777 7.849.76 12.87 2.223 16.877 4.74a36 36 0 0 1 11.329 11.33c2.518 4.007 3.98 9.028 4.741 16.877.77 7.94.777 18.124.777 32.276 0 14.152-.007 24.336-.777 32.276-.761 7.849-2.223 12.87-4.741 16.877a36 36 0 0 1-11.329 11.329c-4.007 2.518-9.028 3.98-16.877 4.741-7.94.77-18.124.777-32.276.777Z" />
+                            <circle cx="96" cy="96" r="30" stroke="#ffff" stroke-width="12" />
+                            <circle cx="135" cy="57" r="9" fill="#ffff" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom__container">
+        <p class="footer-bottom__text">© 2026 ЛМФК.ім.С.П.Людкевича | Всі права захищено.</p>
+    </div>
+</footer>
+<div id="news-modal" class="modal">
+    <div class="modal__content">
+        <button id="modal-close" class="modal__close">&times;</button>
+        <img id="modal-img" src="" alt="" class="modal__img" />
+        <div class="modal__body">
+            <span id="modal-date" class="modal__date"></span>
+            <h2 id="modal-title" class="modal__title"></h2>
+            <p id="modal-text" class="modal__text"></p>
+        </div>
+    </div>
+</div>
+
+</div>
+        <button class="scroll-to-top" id="scrollToTopBtn" title="Нагору">
+            <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 9L12 5M12 5L8 9M12 5V19" stroke="#ffff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </button>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="/test-college/assets/js/main.js"></script>
+    </body>
+</html>
